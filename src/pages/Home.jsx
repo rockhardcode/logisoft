@@ -19,18 +19,18 @@ function Home() {
           <nav className="flex space-x-6 items-baseline h-8 ">
             <Link
               to="/property-search"
-              className="text-white hover:text-blue-600"
+              className="text-white hover:text-blue-600 h-full flex items-end text-base tracking-wide"
             >
               Property Search
             </Link>
-            <Link to="/contact-us" className="text-white hover:text-blue-600">
+            <Link to="/contact-us" className="text-white hover:text-blue-600 text-base tracking-wide">
               Contact Us
             </Link>
           </nav>
           <input
             type="search"
             placeholder="Search"
-            className="p-1 rounded-sm text-white placeholder-gray-200"
+            className="p-1 rounded-sm text-white placeholder-gray-200 px-4 placeholder:text-base"
             style={{ backgroundColor: "#298eba" }}
           />
         </div>

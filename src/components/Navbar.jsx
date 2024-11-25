@@ -25,7 +25,7 @@ function Navbar() {
         </nav>
         <input type="search" placeholder='Search'/>
       </div> */}
-      <div className="flex justify-around w-4/5"  >
+      <div className="flex justify-around w-4/5 text-base text-gray-700 tracking-normal"  >
         <Link className="hover:text-[#1181b2]  py-10" to="/" onMouseEnter={() => toggleDropdown(true)}
     onMouseLeave={() => toggleDropdown(false)}>
           Online Services
